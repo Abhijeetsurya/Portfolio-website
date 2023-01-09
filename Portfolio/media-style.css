@@ -1,0 +1,6 @@
+/*------------------CSS FOR SMALL SCREEN-------------------*/
+@media only screen and (max-width:650px) {
+    nav ul li {
+        flex-direction: column;
+    }
+}

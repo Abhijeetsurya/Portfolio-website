@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-style.css">
+    <script src="https://kit.fontawesome.com/4737f16d4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a id=""></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a ></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web developer</p>
+            <h1>Hi, I'm <span>Abhijeet</span><br>from India</h1>
+        </div>
+    </div>
+</div> 
+<!--------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Abhi-2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"I am a full-stack MERN developer with a strong foundation in MongoDB, Express, React, and Node.js.
+                     I have a passion for building dynamic and responsive web applications and a track record of delivering 
+                     successful projects for clients. I am skilled at developing both the front-end and back-end of web 
+                     applications and am committed to delivering high-quality software solutions that meet the needs and 
+                     expectations of my clients. 
+                    I am always looking for new challenges and opportunities to grow as a developer."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full stack Web development</span><br>Developing Web App</li><br>
+                            <li><span>MERN stack</span><br>Web App Development</li><br>
+                            <li><span>React App</span><br>Front End Development</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2021</span><br>Diploma in Engineering-Information Tecgnology from Rajiv Gandhi Proudyogiki Vishwavidyalaya</li><br>
+                            <li><span>2020-2021</span><br>12th from Madhay Pardesh Board of Higher Secondary Education<br></li><br>
+                            <li><span>2017-2018</span><br>10th Form Madhay Pardesh Board of Higher Education</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Services---------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i><br><br><br>
+                <h2>Web Development</h2><br>
+                <p>Custom web development solutions for businesses and individuals.
+                Expertly designed and developed websites, e-commerce platforms, and more.</p><br>
+                <a href="https://www.linkedin.com/services/page/8a971831b46ab2580a/">Know more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node-js"></i><br><br>
+                <h2>MERN stack Development</h2><br>
+                <p>We offer MERN stack web development services for modern,
+                 scalable applications. Our team has the skills and expertise to
+                  deliver high-quality results.</p><br>
+                <a href="https://www.linkedin.com/services/page/8a971831b46ab2580a/">Know more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i><br><br>
+                <h2>React App Development</h2><br>
+                <p>We offer React web development services to create dynamic and interactive user interfaces. 
+                    Our team has the skills and experience to deliver exceptional results.</p><br>
+                <a href="https://www.linkedin.com/services/page/8a971831b46ab2580a/">Know more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-------------------------Portfolio--------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project's</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Portfolio.png" height="290" width="390">
+            <div class="layer">
+                <h3>Portfolio Website</h3><br><br>
+                <p>I created a portfolio website using HTML, CSS, and JavaScript. It highlights 
+                    my skills and experience.<br>
+                      </p><br>
+                <a style="align-items: left;" href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="WheatherApp.png"  height="290" width="390">
+            <div class="layer">
+                <h3>WeatherApp</h3><br><br>
+                <p>I created a weather app using React that allows users to search for locations and
+                     view current and forecasted weather conditions. </p><br>
+                <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="E-commerce.png"  height="290" width="390">
+            <div class="layer">
+                <h3>E-commerce</h3><br><br>
+                <p>I developed an ecommerce app using the MERN stack, providing users with the 
+                    ability to shop for products, track orders, and manage their account.
+                </p><br>
+                <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+    </div>
+    <a href="https://www.github.com/Abhijeetsurya" class="btn">See more</a>
+</div>
+<!---------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhisurya1421@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9303940996</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abhijeet-suryawanshi24"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.github.com/Abhijeetsurya"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/abhijeet.suryawanshi.3766"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/___abhi___jeet__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:abhisurya1421@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://sheetdb.io/api/v1/96shxw81o0qkg" method="POST" id="sheetdb-form">
+                    <input type="text" name="data[Name]" placeholder="Your Name" required>
+                    <input type="email" name="data[email]" placeholder="Your email" required>
+                    <textarea name="data[message]" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+            <p>Copyright Abhijeet. Made by<i class="fa-solid fa-heart"></i>Abhijeet</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function  openmenu(){
+        sidemenu.style.right="0"
+    }
+
+    function  closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+<script>
+    var form = document.getElementById('sheetdb-form');
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      fetch(form.action, {
+          method : "POST",
+          body: new FormData(document.getElementById("sheetdb-form")),
+      }).then(
+          response => response.json()
+      ).then((html) => {
+        // you can put any JS code here
+        alert('success')
+      });
+      
+    });
+  </script>
+
+
+
+</body>
+</html>
